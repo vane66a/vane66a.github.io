@@ -1,0 +1,62 @@
+/* Basic reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f4f7;
+}
+
+/* Header styling */
+.header {
+    background-image: url('hawaii-beach.jpg'); /* Replace with your own image */
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
